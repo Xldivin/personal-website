@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing PAGE</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <div class="landing" id="Home">
+        <nav>
+            <a href="#">axel<span>divin</span></a>
+            <ul id="Menuitems">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact me</a></li>
+                <li><a href="/html-file/blog.html">Blog</a></li>
+                <li><a href="/html-file/login.html"><button class="log">Login</button></a></li>
+            </ul>
+            <div class="menu-icon"><i class="fas fa-bars" onclick="menutoggle()"></i></div>
+        </nav>
+            <div class="text">
+                <p class="text-one">Hello, My name is</p>
+                <p class="text-two">Shyaka Axel Divin</p>
+                <p class="text-three">and I'm <span>Developer</span></p><br><br><br><br>
+            </div>
+    </div>
+    <!--lANDING PAGE (Homepage)--> 
+    <div class="about" id="about">
+        <div class="h1-about"><h1>ABOUT ME</h1></div>
+      <section>
+        <img src="/assets/7471.jpg" alt="axeldivin">
+        <p class="guill">Have you asked yourself how can i put something<br>on internet well you are in the rigt place<br><br>
+        Hey what's up I'm Axel<br><br>I'm full stack developer I've finished at BYIMANA school of<br>sciences
+        I'm currently undergoing my Bachelor's degree<br> in software Engineering I guarantee you that it would bring<br> 
+        a huge benefit to contact me to discuss more about me and<br> what i can offer as help to your business.</p>
+      </section>
+      <div class="Download"><a href="#"><button>Download Cv</button></a></div>
+    </div>
+    <!--ABOUT ME SECTION-->
+    <div class="skillspage" id="skills">
+        <div class="h1-skills"><h1>Skills</h1></div>
+             <div class="skills-content">
+                <img src="/assets/images.png" alt="why coding">
+                <p><span>Languages</span><br><br>C-progarmming language&nbsp&nbsp&nbsp&nbsp&nbsp Javascript&nbsp&nbsp&nbsp&nbsp&nbsp  Css&nbsp&nbsp&nbsp&nbsp&nbsp 
+                    Html&nbsp&nbsp&nbsp&nbsp&nbsp  Mysql<br><br><br><span>Developnment</span><br><br>Photoshop&nbsp&nbsp&nbsp&nbsp&nbsp  Figma</p>
+             </div>
+    </div>
+    <!--skills-section-->
+    <div class="contact" id="contact">
+        <div class="kev"><h1>Contact me</h1></div>
+            <div class="row">
+                <div class="address">
+                    <div class="box">
+                        <div class="icon-1"><i class="fa fa-envelope"></i></div>
+                        <div class="word">
+                            <h3>Email</h3>
+                            <p>Xldivin@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon-1"><i class="fa fa-map-marker"></i></div>
+                        <div class="word">
+                            <h3>ADDRESS</h3>
+                            <p>Nyakabanda sector<br> Nyarugenge district Kigali,Rwanda</p>
+                        </div>
+                    </div>  
+                    <div class="box">
+                        <div class="icon-1"><i class="fa fa-phone"></i></div>
+                        <div class="word">
+                            <h3>PHONE</h3>
+                            <p>+250780935541</p>
+                        </div>
+                    </div>
+                </div>
+                <form id="form">
+                <label>Name</label>
+                    <input type="text" placeholder="Type here .... " id="name" name="name">
+                    <div class="valid">valid</div>
+                <label>Phone</label>
+                    <input type="text" placeholder="Type here .... " id="phone" name="phone">
+                    <div class="valid">valid</div>
+                <label>Email</label>
+                    <input type="text" placeholder="Type here .... " id="email" name="email">
+                    <div class="valid">valid</div>
+                <label>Message</label>
+                    <textarea type="text" placeholder="Message" id="message"></textarea>
+                <div> <button type="submit" id="tap" onclick="addQuery()">Send Message Now</button></div>
+                </form>   
+             <!--contact-form-->
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container1">
+            <div class="row1">
+                <div class="footer-col">
+                    <h3>WEBSITE</h3>
+                    <ul> 
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact me</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="rights"><p>All rights reserved by Axel 2022</p></div>
+        </div>
+    </footer>
+    <!--footer-->
+    <script src="/js-file/web.js"></script>
+    <script src="/js-file/post-query.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </body>
+    </html>

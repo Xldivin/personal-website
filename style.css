@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.web img{
+    width: 50px;
+    margin-left: 100px;
+    position: fixed;
+}
+nav{
+    text-decoration: none;
+    font-family: 'ubuntu',sans-serif;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    background-color:crimson ;
+}
+nav a span{
+    color: orange;
+}
+nav a{
+    color: #FFF;
+    position: relative;
+    left: 40px;
+    margin-top: 5px;
+    margin-left: px;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav li{
+    margin-right: 50px;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 10px;
+}
+ul li a:hover{
+    color: orange;
+}
+ul li a button{
+    font-family:'ubuntu',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: orange;
+    color: #FFF;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    right: 30px;
+}
+ul li a{
+    color: #FFF;
+    font-weight: 500;
+    text-decoration: none;
+}
+.landing{
+    background-image: url(./assets/water.png);
+    background-size: 1453px;
+    background-repeat: no-repeat;
+    min-height: 792px;
+}
+.text{
+    position: relative;
+    top: 300px;
+    margin-left: 200px;
+    font-family: 'ubuntu',sans-serif;
+    color: #FFF;
+}
+.text .text-one{
+    font-size: 20px;
+}
+.text .text-two{
+    font-size: 40px;
+}
+.text .text-three{
+    font-size: 20px;
+}
+.text .text-three span{
+    color: #FFF;
+    text-decoration: none;
+}
+.menu-icon{
+    font-size: 20px;
+    color: #FFF;
+    margin-right: 20px;
+    margin-top: 5px;
+    display: none;
+}
+
+/* landing page*/
+.about{
+    background: black;
+    margin-top: -2px;
+}
+.h1-about h1{
+    font-family: 'ubuntu', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: #CFFFB3;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -50px;
+    position: relative;
+    top: -38px;
+}
+section img{
+    position: relative;
+    bottom: 50px;
+    width: 500px;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: 25px;
+}
+section p{
+    font-family: 'ubuntu', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    position: relative;
+    top: -22px;
+    color: #ffffff;
+}
+ .Download button{
+    font-family:'ubuntu',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: orange;
+    color: #FFF;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 950px;
+    position: relative;
+    bottom: 234px;
+    right: 88px;
+    padding: 15px;
+}
+/* about us page */
+.skillspage{
+    margin-bottom: -1px;
+    background-color: black;
+}
+.skills-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 80px;
+}
+.h1-skills h1{
+    color: #CFFFB3;
+    font-family: 'ubuntu', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    position: relative;
+    bottom: 124px;
+}
+ .skills-content p{
+    color: #ffffff;
+    font-family: 'ubuntu', sans-serif;
+    position: relative;
+    top: -181px;
+    font-size: 20px;
+}
+p span{
+    color:#CFFFB3;
+    text-decoration: underline;
+}
+ img{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    bottom: 163px;
+    margin-left: 50px;
+}
+/*skills page*/
+.contact{
+    background-color: black;
+}
+.kev h1 {
+    text-align: center;
+    font-family: 'ubuntu', sans-serif;
+    text-decoration: underline;
+    color: #CFFFB3;
+    position: relative;
+    bottom: 20px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+    font-family: 'ubuntu', sans-serif;
+    color: white;
+}
+.word h3 {
+    margin-left: 40px;
+}
+.word p {
+    margin-left: 40px;
+}
+form
+{
+    width: 500px;
+    height: auto;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+label
+{
+    display: block;
+    margin-left: 25px;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 5px;
+}
+input
+{
+    width: 400px;
+    padding: 10px;
+    margin-left: 35px;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 300;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+}
+form button{
+    margin-top: 30px;
+    margin-left: 120px;
+    color: white;
+    background-color: orange;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 20px;
+}
+textarea
+{
+    width: 400px;
+    padding: 20px;
+    margin-left: 30px;
+    font-family:  'ubuntu', sans-serif;
+    font-weight: 300;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+form .valid{
+    margin-left: 80px;
+    color: green;
+    display: none;
+}
+button:hover
+{
+    color: white;
+    background-color: teal;
+}
+.footer{
+    background-color: #24262b;
+    width: 100%;
+}
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-col ul li{
+    list-style: none;
+}
+.footer-col h3{
+    color: #FFF;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family:'ubuntu',sans-serif;
+}
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #bbbbbb;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    font-family:'ubuntu',sans-serif;
+}
+.footer-col ul li a:hover{
+    color: #fff;
+    padding-left: 10px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+}
+.rights p{
+    text-align: center;
+    color: #fff;
+}
+/* media query */
+
+@media only screen and (max-width: 768px){
+    nav ul {
+        position: absolute;
+        top: 35px;
+        left: 0px;
+        background: #333;
+        width: 100%;
+        display: none;
+    }
+    nav ul li {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    #Menuitems.active{
+        display: block;
+    }
+    section {
+        position: relative;
+        bottom: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .Download button {
+        position: relative;
+        left: -778px;
+        width: 150px;
+        top: -12px;
+    }
+    .skills-content{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 25px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .skillspage{
+        height: 581px;
+    }
+    .about{
+        height: 1105px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    form{
+    width: 450px;
+    padding: 10px; 
+    position: relative;
+    left: 10px;
+    }
+    .word h3{
+    position: relative;
+    bottom: 35px;
+    font-size: 20px;
+    }
+    .word p{
+    position: relative;
+    bottom: 35px;
+    font-size: 20px;
+    }
+    .kev h1{
+    position: relative;
+    top: 21px;
+    }
+    .address{
+    position: relative;
+    top: 6px;
+    left: 71px;
+    }
+    .skills-content p {
+    position: relative;
+    top: -142px;
+    }
+    form{
+    width: 544px;
+    padding: 10px; 
+    position: relative;
+    left: 101px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .landing{
+        overflow-x: hidden;
+    }
+    .about{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-bottom: -267px;
+    }
+    .skillspage{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .contact{
+        overflow-x: hidden;
+    }
+    .text{
+        margin-left: 60px;
+    }
+    section {
+        position: relative;
+        bottom: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    section img{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        bottom: 51px;
+    }
+    section p {
+        font-size: 18px;
+        position: relative;
+        top: -10px;
+    }
+    .h1-about h1{
+        position: relative;
+        top: -6px
+    }
+    .Download button {
+        position: relative;
+        left: -778px;
+        width: 150px;
+        top: -12px;
+    }
+    .skills-content{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .languages{
+        font-size: 15px;
+        margin-bottom: 10px;
+        position: relative;
+        top: -55px;
+    }
+    .languages span{
+        position: relative;
+        top: 10px;
+    }
+    .h1-skills h1{
+        position: relative;
+        top: 10px;
+    }
+    .skills-content img{
+        position: relative;
+        top: -54px;
+        width: 300px;
+        height: 300px;
+    }
+    .skills-content p {
+        position: relative;
+        top: -42px;
+    }
+    .footer{
+        text-align: center;
+    }
+    .rights p{
+        font-size: 15px;
+        position: relative;
+        top: 0px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 25px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .word h3{
+        position: relative;
+        bottom: 35px;
+        font-size: 15px;
+    }
+    .word p{
+        position: relative;
+        bottom: 35px;
+        font-size: 15px;
+    }
+    .kev h1{
+        position: relative;
+        top: 21px;
+    }
+    .address{
+        position: relative;
+        top: 6px;
+        left: 2px;
+    }
+    form{
+    width: 450px;
+    padding: 10px; 
+    position: relative;
+    left: 10px;
+    }
+    label{
+    font-weight: 200;
+    font-size: 14px;
+    padding: 3px;
+    }
+    input{
+    width: 300px;
+    padding: 5px;
+    }
+    .tap button{
+    padding: 15px;
+    width: 200px;
+    border-radius: 20px;
+    }
+    textarea{
+    width: 300px;
+    padding: 15px;
+    font-weight: 300;
+    }
+    .and #about{
+        display: none;
+    }
+    body{
+        width: 600px
+    }
+    .and a{
+        display: none;
+    }
+}
+@media only screen and (max-width: 550px){
+    body{
+        width: 550px;
+    }
+}
+@media only screen and (max-width: 500px){
+    body{
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 450px){
+    body{
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 425px){
+    body{
+        width: 425px;
+    }
+    section  p{
+        width: 364px;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 350px){
+    body{
+        width: 350px;
+    }
+    .skills-content img{
+        position: relative;
+        left: -26px;
+        top: -54px;
+        width: 300px;
+        height: 300px;
+    }
+    .Download button {
+        position: relative;
+        left: -875px;
+    }
+    section img{
+        position: relative;
+        left: -12px;
+    }
+    section p{
+        font-size: 15px;
+        width: 276px;
+    }
+    form{
+        width: 343px;
+        padding: 10px;
+        position: relative;
+        left: 4px; 
+    }
+    label{
+        font-weight: 200;
+        font-size: 10px;
+        padding: 3px;
+    }
+    input{
+        width: 278px;
+        padding: 7px;
+    }
+    form button{
+        padding: 5px;
+        width: 127px;
+        border-radius: 20px;
+        position: relative;
+        right: 45px;
+    }
+    textarea{
+        width: 210px;
+        padding: 15px;
+        font-weight: 300;
+    }
+
+}

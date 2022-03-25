@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css-file/update.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.21.0/ui/trumbowyg.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Edit new</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-logo">Divin<span style="color: orange ;">Axel</span></div>
+        <div class="nav-dash">DASHBOARD</div>
+        <img src="/assets/divin.png" alt="profile-pic" class="nav-pic">
+       
+    </nav>
+
+    <main class="container">
+        <section class="content">
+
+            <p class="title">UPDATE A BLOG</p>
+
+            <div class="rows">
+               <form class="create">
+                   <input type="text" class="title1" id="title" placeholder="Title">
+                   <div>
+                    <label for="avatar">Choose a picture:</label>
+                    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+                   </div>
+                   <textarea id="body1">
+
+                   </textarea>
+               </form>
+               <button type="submit" id="tap" class="post" onclick= "updateBlog()">submit</button>
+            </div>
+        </section>
+    </main>
+<script src="/js-file/update-blog.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

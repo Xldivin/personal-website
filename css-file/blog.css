@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    text-decoration: none;
+    font-family: 'ubuntu',sans-serif;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+nav a span{
+    color: orange;
+}
+nav a{
+    color: #FFF;
+    position: relative;
+    left: 40px;
+    margin-top: 50px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 30px;
+}
+body{
+    background-color: black;
+}
+.nico img{
+    width: 800px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+p{
+    font-family:'ubuntu',sans-serif;
+    color: #FFF;
+    margin-left: 100px;
+}
+h1{
+    margin-left: 100px;
+    color: #FFF;
+    text-decoration: underline;
+}
+.more{
+    margin-left: 800px;
+    position: relative;
+    color: #FFF;
+}
+marquee{
+    font-family:'ubuntu',sans-serif;
+    color: orange;
+    margin-top: 20px;
+    font-size: 100px;
+}
+.head h1{
+    font-family:'ubuntu',sans-serif;
+    color: #FFF;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 50px;
+}
+.qoutes p{
+    font-family:'ubuntu',sans-serif;
+    font-size: 20px;
+}
+.more a{
+    font-family:'ubuntu',sans-serif;
+}
+.text{
+    margin-left: 100px;
+    color: #FFF;
+    position: relative;
+    top: 20px;
+    font-family: 'ubuntu',sans-serif;
+}
+.self img{
+    width: 1%;
+    height: 1%;
+    border-radius: 100px;
+    margin-left: 400px;
+}
+.footer{
+    background-color: #24262b;
+    width: 1439px;
+}
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-col ul li{
+    list-style: none;
+}
+.footer-col  h3{
+    color: #FFF;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family:'ubuntu',sans-serif;
+}
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #bbbbbb;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    font-family:'ubuntu',sans-serif;
+}
+.footer-col ul li a:hover{
+    color: #fff;
+    padding-left: 10px;
+}
+.footer-col2 .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    font-family:'ubuntu',sans-serif;
+}
+.rights p{
+    text-align: center;
+}
+@media only screen and (max-width: 800px){
+    .respo{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 28px;
+    }
+    .nico img{
+        width: 400px;
+    }
+    .head{
+        text-align: center;
+    }
+    .qoutes p{
+        display: none;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer-col{
+        position: relative;
+        right: 100px;
+    }
+    .footer-col2{
+        position: relative;
+        right: -6px;
+    }
+    .rights p {
+        position: relative;
+        right: 550px;
+    }
+    marquee{
+        display: none;
+    }
+    .more a{
+        display: none;
+    }
+    .text{
+        position: relative;
+        bottom: 10px;
+    }
+    .footer{
+        width: 643px;
+    }
+    .rights p {
+        position: relative;
+        right: 50px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .respo{
+        position: relative;
+        right: 80px;
+        bottom: 50px;
+    }
+    .nico img{
+        width: 264px;
+    }
+    .more a {
+        display: none;
+    }
+    .nico img{
+        position: static;
+    }
+    .footer-col2{
+        position: relative;
+        right: -20px;
+        top: -23px;
+    }
+    marquee{
+        display: none;
+    }
+    nav a{
+        margin-top: 10px;
+        margin-left: -37px;
+    }
+    .footer{
+        width: 300px;
+    }
+    .footer-col{
+        position: relative;
+        right: 25px;
+    }
+    .rights p {
+        position: relative;
+        right: 50px;
+    }
+}

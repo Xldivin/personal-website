@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css-file/signup.css">
+    <title>Signup</title>
+</head>
+<body>
+    <div class="ken"><a href="/index.html">axel<span>divin</span></a></div>
+    <form id="form" onsubmit="return false;">
+        <h1>Sign up</h1>
+        <label>Username</label>
+            <input type="text" id="username" placeholder="Type here .... " name="name"  autofocus>
+        <label>Email</label>
+            <input type="text" id="email" placeholder="Type here ...." name="email">
+        <label>password</label>
+            <input type="password" id="password" placeholder="************" name="password">     
+        <button type="submit" onclick="addUser()">SignUp</button>
+        <div class="paragr"><p>Already have an account?<a href="login.html">Login</a></p></div>
+    </form>
+    <script src="/js-file/signup.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>

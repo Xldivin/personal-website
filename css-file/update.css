@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; 
+}
+*::after, *::before {
+    box-sizing: inherit; 
+}
+  
+html {
+box-sizing: border-box;
+font-size: 55%; 
+}
+
+body {
+font-family: sans-serif; 
+}
+.nav{
+    background-color: rgb(22, 21, 21);
+    width: 100vw;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    align-items: center;
+}
+.nav-pic{
+    width: 4rem;
+    border-radius: .3rem;
+}
+.nav-dash{
+    font-size: 3rem;
+}
+.nav-logo{
+    font-size: 2rem;
+}
+.container{
+    display: flex;
+}
+.content{
+    margin: 2rem 5rem;
+    width: 60vw;
+}
+#body1{
+    width: 49rem;
+    height: 22rem;
+}
+.title{
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 3rem;
+}
+.title1{
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 3rem;
+}
+.rows{
+    padding: 1rem;
+
+}
+.blog{
+    padding: 2rem 1rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(36, 35, 35);
+}
+
+
+.post{
+    width: 15rem;
+    height: 3em;
+    border-radius: 2rem;
+    background-color: orange;
+    margin-top: 2rem;
+}
+#icon{
+    display: none;
+}
+@media only screen and (max-width: 400px){
+    .nav-logo{
+        position: relative;
+        left: -4rem;
+    }
+    .nav-dash{
+        position: relative;
+        right: 2rem;
+        font-size: 2rem;
+    }
+    input .title{
+        width: 3rem;
+    }
+    .title1{
+        width: 24rem;
+    }
+
+}

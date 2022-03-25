@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css-file/members.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Admin users</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-logo">Divin<span style="color: #FFD74A;">Axel</span></div>
+        <div class="nav-dash">DASHBOARD</div>
+        <img src="/assets/divin.png" alt="profile-pic" class="nav-pic">
+        <div class="menu-icon" id="menu-icon"><i class="fas fa-bars"></i></div>
+       
+    </nav>
+
+    <main class="container">
+        <section class="side" id="side">
+
+            <ul class="side-bar" id="side-bar">
+                <li class="side-bar-item"><a href="blogs.html" class="link">BLOGS</a></li>
+                <li class="side-bar-item"><a href="comments.html" class="link">COMMENTS</a></li>
+                <li class="side-bar-item"><a href="queries.html" class="link">QUERIES</a></li>
+                <li class="side-bar-item"><a href="subscribers.html" class="link">SUBSCRIBERS</a></li>
+                <li class="side-bar-item item-active"><a href="users.html" class="link">USERS</a></li>
+
+            </ul>
+            <div><a href="/index.html"  class="logout" onclick="logout()">LogOut</a>
+            </div>
+        </section>
+        <section class="content">
+            <p class="title">USERS</p>
+
+            <div class="rows" id="rows">
+                <div class="blog">
+                    <span class="nbr">
+                        01
+                    </span>
+                    <span class="blog-title">
+                        SHYAKA Axel
+                    </span>
+                    <span class="mail1">
+                        xldivin@gmail.com
+                    </span>
+                    <button class="delete">Delete</button>
+                </div>
+                <div class="blog">
+                    <span class="nbr">
+                        01
+                    </span>
+                    <span class="blog-title">
+                        SHYAKA Axel
+                    </span>
+                    <span class="mail1">
+                        xldivin@gmail.com
+                    </span>
+                    <button class="delete">Delete</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="/js-file/menu.js"></script>
+    <script src="/js-file/get.user.js"></script>
+</body>
+</html>

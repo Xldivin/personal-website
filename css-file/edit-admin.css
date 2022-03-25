@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; 
+}
+*::after, *::before {
+    box-sizing: inherit; 
+}
+  
+html {
+box-sizing: border-box;
+font-size: 55%; 
+}
+
+body {
+font-family: sans-serif; 
+}
+.nav{
+    background-color: rgb(22, 21, 21);
+    width: 100vw;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    align-items: center;
+}
+.nav-pic{
+    width: 4rem;
+    border-radius: .3rem;
+}
+.nav-dash{
+    font-size: 3rem;
+}
+.nav-logo{
+    font-size: 2rem;
+}
+.container{
+    display: flex;
+}
+.side{
+    background-color: #4F4F4F;
+    min-height: 90vh;
+    min-width: 15vw;
+    display: flex;
+    max-height: 91vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.side-bar{
+    font-size: 2rem;
+    margin:2rem 3rem;
+    /* display: inline-block; */
+
+}
+.side-bar-item{
+    list-style: none;
+    padding: 1rem;
+    border-bottom: 1px solid whitesmoke;
+
+}
+.link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.logout{
+    text-decoration: none;
+    margin: 1rem 5rem;
+    color:azure;
+}
+.add{
+    font-size: 2rem;
+    text-decoration: none;
+    background-color: aqua;
+    padding: 1rem 2rem;
+    
+    border-radius: 1000000px;
+}
+.content{
+    margin: 2rem 5rem;
+    width: 60vw;
+}
+.title{
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 3rem;
+}
+.title1{
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 3rem;
+}
+.rows{
+    padding: 1rem;
+
+}
+#body1{
+    width: 49rem;
+    height: 22rem;
+}
+.blog{
+    padding: 2rem 1rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(36, 35, 35);
+}
+.logout{
+    font-size: 1.6rem;
+}
+.item-active{
+    background-color: aliceblue;
+}
+.item-active a {
+    color: #4F4F4F;
+}
+.post{
+    width: 15rem;
+    height: 3em;
+    border-radius: 2rem;
+    background-color: orange;
+}
+#icon{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    #icon{
+        display: block;
+    }
+    .side-bar-item{
+        display: none;
+    }
+    .logout{
+        margin-left: 1rem;
+    }
+
+}
+@media only screen and (max-width: 400px){
+    .nav-logo{
+        position: relative;
+        left: -4rem;
+    }
+    .nav-dash{
+        position: relative;
+        right: 2rem;
+        font-size: 2rem;
+    }
+    input .title{
+        width: 3rem;
+    }
+    .title1{
+        width: 24rem;
+    }
+    #body{
+        height: 5rem;
+    }
+    .trumbowyg-box{
+        height: 2rem;
+    }
+
+}

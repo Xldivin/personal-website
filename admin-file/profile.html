@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css-file/profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>User-GET-PROFILE </title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-logo">Divin<span style="color: #FFD74A;">Axel</span></div>
+        <div class="nav-dash">DASHBOARD</div>
+        <img src="/assets/divin.png" alt="profile-pic" class="nav-pic">
+        <div class="menu-icon" id="menu-icon"><i class="fas fa-bars"></i></div>
+       
+    </nav>
+
+    <main class="container">
+        <section class="side" id="side">
+
+            <ul class="side-bar" id="side-bar">
+                <li class="side-bar-item"><a href="/admin-file/useradmin.html" class="link">USERS</a></li>
+                <li class="side-bar-item item-active"><a href="/admin-file/profile.html" class="link">GET-PROFILE</a></li>
+            </ul>
+            <a href="/index.html"  class="logout" onclick="logout()">LogOut</a>
+        </section>
+        <section class="content">
+            <p class="title">GET-PROFILE</p>
+
+            <div class="rows" id="rows">
+                <div class="blog">
+                    <span class="nbr">
+                        Username:
+                    </span>
+                    <label class="blog-title1" id="names">
+                        Shyaka
+                    </label>
+                </div>
+                <div class="blog">
+                    <span class="nbr">
+                        role:
+                    </span>
+                    <label class="blog-title2" id="role">
+                        standard-user
+                    </label>
+                </div>
+            </div>
+            <form>
+                <h2>Update-userprofile</h2>
+                <label>username</label>
+                <input type="text" name="email" class="sub">
+                <label>email</label>
+                <input type="text" name="">
+            </form>
+            <button>Update</button>
+        </section>
+    </main>
+    <script src="/js-file/menu.js"></script>
+    <script src="/js-file/get-userprofile.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="/css-file/blog1.css">
+</head>
+<body>
+    <nav>
+        <a href="/index.html">axel<span>divin</span></a>
+    </nav>
+    <div class="container" id="#container">
+        <div class="head"><h2 id="head1"></h2></div>
+        <div class="image"><img src="../assets/1.jpg" alt="tech" id="image1"></div>
+        <div class="para"><p>Posted on feb 20,2022 by shyaka axel divin</p></div>
+        <div class="text">
+            <p id="text2"> </p>
+        </div>
+                <form>
+                    <h3> Create Comments</h3>
+                    <label>Names</label>
+                    <input type="text" id="name" placeholder="Type here .... " name="name" required autofocus>&nbsp
+                    <textarea type="text" id="comment" placeholder="Message"></textarea>
+                </form>
+                    <button class="send" onclick="add()">SEND</button>
+        <div class="blog-comment" id="blog-comment">
+            <h3 class="comment">shyaka axel</h3>
+            <p class="comment1">good content guy</p>
+            <h3 class="comment">shyaka axel</h3>
+            <p class="comment1">good content guy</p>
+            <h3 class="comment">shyaka axel</h3>
+            <p class="comment1">good content guy</p>
+
+        </div>
+        
+        <footer class="footer">
+            <div class="container1">
+                <div class="row1">
+                    <div class="footer-col">
+                        <h3>WEBSITE</h3>
+                        <ul> 
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#about">About us</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#contact">Contact me</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="subscribe">
+                        <h2>SUBSCRIBE</h2>
+                        <label>Email</label>
+                        <input type="text" name="email" class="sub" id="sub">
+                        <button id="tap" onclick="addSub()">SUBSCRIBE</button>
+                    </div>
+                </div>
+                <div class="rights"><p>All rights reserved by Axel 2022</p></div>
+            </div>
+        </footer>
+    </div>
+    <script src="/js-file/post-sub.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/js-file/single.blog.js"></script>
+   
+</body>
+</html>

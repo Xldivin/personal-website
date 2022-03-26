@@ -50,39 +50,39 @@ const comment = async () => {
 
 
 
- const getcomment = async () => {
-	let result = [];
-	fetch("https://axel-divin.herokuapp.com/api/v1/blog/"+DataId+"/comments", {
-		method: "GET",
-		headers: {
-			"authorization": 'bearer '+token
-		},
+//  const getcomment = async () => {
+// 	let result = [];
+// 	fetch("https://axel-divin.herokuapp.com/api/v1/blog/"+DataId+"/comments", {
+// 		method: "GET",
+// 		headers: {
+// 			"authorization": 'bearer '+token
+// 		},
 
-	})
-	.then((response) => response.json())
-		.then((json) => {
-			result = json.data;
-			result?.length
-				? (document.querySelector("#rows").innerHTML = result
-						.map(
-							(res) => `
-							<div class="blog">
-							<span class="nbr">
-							     01
-							</span>
-							<section class="blog-title">
-							    ${res?.comment}
-							</section>
-							<button class="delete">Delete</button>
-						</div>
-                    `
-					)
-						.join(""))
-				: (document.querySelector("#rows" ).innerHTML = `<h5>Sorry , No comments yet published</h5>`);
-		})
-		.catch((err) => console.log(err));
-}
- getcomment()
+// 	})
+// 	.then((response) => response.json())
+// 		.then((json) => {
+// 			result = json.data;
+// 			result?.length
+// 				? (document.querySelector("#rows").innerHTML = result
+// 						.map(
+// 							(res) => `
+// 							<div class="blog">
+// 							<span class="nbr">
+// 							     01
+// 							</span>
+// 							<section class="blog-title">
+// 							    ${res?.comment}
+// 							</section>
+// 							<button class="delete">Delete</button>
+// 						</div>
+//                     `
+// 					)
+// 						.join(""))
+// 				: (document.querySelector("#rows" ).innerHTML = `<h5>Sorry , No comments yet published</h5>`);
+// 		})
+// 		.catch((err) => console.log(err));
+// }
+//  getcomment()
 
 
 async function add() {

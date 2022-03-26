@@ -2,10 +2,9 @@
 const getusersadmin = async () => {
 	let result = [];
 const token =localStorage.getItem('token');
-	fetch("https://axel-divin.herokuapp.com/api/v1/allusers", {
+	fetch("https://axel-divin.herokuapp.com/api/v1/auth/allusers", {
 		method: "GET",
 		headers: {
-			"Content-Type": "application/json",
 			"authorization": 'bearer '+token
 		  },
 	})

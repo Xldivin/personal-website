@@ -75,7 +75,6 @@ font-family: sans-serif;
     text-decoration: none;
     background-color: aqua;
     padding: 1rem 2rem;
-    
     border-radius: 1000000px;
 }
 .content{
@@ -116,7 +115,17 @@ font-family: sans-serif;
 }
 .update{
     background-color: green;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.view{
+    background-color: green;
+    padding: 1rem 2rem;
     outline: none;
     border: none;
     color: white;
@@ -174,5 +183,14 @@ font-family: sans-serif;
     }
     .nav-pic{
         display: none;
+    }
+    .view{
+        padding: 0.9rem 0.9rem;
+    }
+    .update{
+        padding: 0.9rem 0.9rem;
+    }
+    .delete{
+        padding: 0.9rem 0.9rem;
     }
 }

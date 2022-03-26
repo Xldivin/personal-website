@@ -374,6 +374,7 @@ button:hover
     }
     body{
         overflow-x: hidden;
+        width: 100%;
     }
     form{
     width: 450px;

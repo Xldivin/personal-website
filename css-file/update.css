@@ -80,21 +80,62 @@ font-family: sans-serif;
 #icon{
     display: none;
 }
-@media only screen and (max-width: 400px){
-    .nav-logo{
-        position: relative;
-        left: -4rem;
+@media (max-width: 48em) {
+    html {
+      box-sizing: border-box;
+      font-size: 48%;
     }
-    .nav-dash{
-        position: relative;
-        right: 2rem;
-        font-size: 2rem;
+    body{
+        overflow-x: hidden;
     }
-    input .title{
-        width: 3rem;
+    #body1{
+        margin-top: 3rem;
+        margin-left: 3rem;
     }
     .title1{
-        width: 24rem;
+        margin-left: 3rem;
+        margin-top: 2rem;
+    }
+    #tap{
+        margin-top: 2rem;
+    }
+}
+    @media (max-width: 26.6em) {
+        html {
+          box-sizing: border-box;
+          font-size: 30%;
+        }
+        .side{
+            min-width: 20vw;
+        }
+    }
+    @media (max-width: 23.5em){
+        .side{
+            position: absolute;
+            left: -22rem; 
+        }
+        .active{
+            position: absolute;
+            left: 0;
+        }
+        .menu-icon{
+            display: block;
+        }
+        .nav-pic{
+            display: none;
+        }
+        #body1{
+            margin-top: 6rem;
+            margin-left: 3rem;
+        }
+        .title1{
+            margin-left: 2rem;
+            margin-top: 5rem;
+        }
+        #tap{
+            margin-top: 2rem;
+            margin-left: 2rem;
+            padding: 0rem;
+        }
     }
 
-}

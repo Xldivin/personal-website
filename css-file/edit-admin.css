@@ -121,42 +121,68 @@ font-family: sans-serif;
     border-radius: 2rem;
     background-color: orange;
 }
-#icon{
+.menu-icon{
+    font-size: 20px;
+    color: #FFF;
+    margin-right: 20px;
+    margin-top: 5px;
     display: none;
 }
-@media only screen and (max-width: 600px){
-    #icon{
-        display: block;
+@media (max-width: 48em) {
+    html {
+      box-sizing: border-box;
+      font-size: 48%;
     }
-    .side-bar-item{
-        display: none;
+    body{
+        overflow-x: hidden;
     }
-    .logout{
-        margin-left: 1rem;
-    }
-
-}
-@media only screen and (max-width: 400px){
-    .nav-logo{
-        position: relative;
-        left: -4rem;
-    }
-    .nav-dash{
-        position: relative;
-        right: 2rem;
-        font-size: 2rem;
-    }
-    input .title{
-        width: 3rem;
+    #body1{
+        margin-top: 3rem;
+        margin-left: 2rem;
     }
     .title1{
-        width: 24rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
     }
-    #body{
-        height: 5rem;
+    #tap{
+        margin-top: 2rem;
     }
-    .trumbowyg-box{
-        height: 2rem;
-    }
-
 }
+    @media (max-width: 26.6em) {
+        html {
+          box-sizing: border-box;
+          font-size: 30%;
+        }
+        .side{
+            min-width: 20vw;
+        }
+    }
+    @media (max-width: 23.5em){
+        .side{
+            position: absolute;
+            left: -22rem; 
+        }
+        .active{
+            position: absolute;
+            left: 0;
+        }
+        .menu-icon{
+            display: block;
+        }
+        .nav-pic{
+            display: none;
+        }
+        #body1{
+            margin-top: 6rem;
+            margin-left: 3rem;
+        }
+        .title1{
+            margin-left: 9rem;
+            margin-top: 5rem;
+        }
+        #tap{
+            margin-top: 2rem;
+            margin-left: 2rem;
+            padding: 0rem;
+        }
+    }

@@ -82,7 +82,10 @@ font-family: sans-serif;
 }
 .rows{
     padding: 1rem;
-
+}
+.header{
+    margin-top: 4rem;
+    font-size: 3rem;
 }
 .blog{
     padding: 2rem 9rem;
@@ -118,10 +121,11 @@ font-family: sans-serif;
 }
  button{
     background-color: orange;
-    padding: 0.2rem;
+    padding: 1rem;
     border-radius: 2rem;
     position: relative;
-    top: 6rem;
+    top: 2rem;
+    width: 10rem;
 }
 .subscribe button:hover{
     background-color: teal;
@@ -129,6 +133,19 @@ font-family: sans-serif;
 .subscribe{
     position: relative;
     top: 2rem;
+}
+form{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    font-weight: 500;
+    font-size: 2rem;
+}
+form input{
+    width: 30rem;
+    padding: 0.5rem;
 }
 
 @media (max-width: 48em) {

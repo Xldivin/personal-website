@@ -15,9 +15,9 @@ const getBlogs = async () => {
                         <div class="respo" id="respo">
                            <div class="nico"><img src="${res?.image}" alt="axelblog"> </div>
                            <a href="./blog1.html"><h1>${res?.title}</h1></a>
-                            <p>${res?.descrption?.slice(1,500)}</p>
+                            <p class="paragraph">${res?.descrption?.slice(1,500)}</p>
                            <div class="text">Posted on Feb 20,2022 by Shyaka axel divin </div>
-                           <div class="more"><a href="/project/html-file/blog1.html?${res?._id}">Read more &#8594</a></div>
+                           <div class="more"><a href="/html-file/blog1.html?${res?._id}">Read more &#8594</a></div>
                         </div>
                     `
 					)

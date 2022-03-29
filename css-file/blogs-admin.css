@@ -122,6 +122,7 @@ font-family: sans-serif;
     border-radius: 3px;
     font-size: 1.6rem;
     cursor: pointer;
+    text-decoration: none;
 }
 .view{
     background-color: green;
@@ -132,10 +133,10 @@ font-family: sans-serif;
     border-radius: 3px;
     font-size: 1.6rem;
     cursor: pointer;
+    text-decoration: none;
 }
 .logout{
     font-size: 1.6rem;
- 
 }
 .item-active{
     background-color: aliceblue;
@@ -167,6 +168,18 @@ font-family: sans-serif;
     }
     .side{
         min-width: 20vw;
+        left: -22rem;
+        position: absolute;
+    }
+    .active{
+        position: absolute;
+        left: 0;
+    }
+    .nav-pic{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
     }
 }
 @media (max-width: 23.5em){

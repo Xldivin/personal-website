@@ -84,6 +84,7 @@ marquee{
 .footer{
     background-color: #24262b;
     width: 1439px;
+    margin-top: 335px;
 }
 .row1{
     display: flex;
@@ -122,7 +123,10 @@ marquee{
 .rights p{
     text-align: center;
 }
-@media only screen and (max-width: 800px){
+body{
+    overflow-x: hidden;
+}
+@media only screen and (max-width: 768px){
     .respo{
         display: flex;
         flex-direction: column;
@@ -157,21 +161,32 @@ marquee{
         display: none;
     }
     .more a{
-        display: none;
+        margin-left: -330px;
     }
     .text{
         position: relative;
         bottom: 10px;
     }
     .footer{
-        width: 643px;
+        width: 790px;
+        margin-top: 500px;
     }
     .rights p {
         position: relative;
         right: 50px;
     }
+    body{
+        overflow-x: hidden;
+        width: 768px;
+    }
+    nav a{
+        margin-left: 25px;
+    }
+    .paragraph{
+        width: 608px;
+    }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 425px){
     .respo{
         position: relative;
         right: 80px;
@@ -180,8 +195,11 @@ marquee{
     .nico img{
         width: 264px;
     }
-    .more a {
+    .text{
         display: none;
+    }
+    .more a {
+        margin-left: -707px;
     }
     .nico img{
         position: static;
@@ -199,7 +217,7 @@ marquee{
         margin-left: -37px;
     }
     .footer{
-        width: 300px;
+        width: 424px;
     }
     .footer-col{
         position: relative;
@@ -208,5 +226,11 @@ marquee{
     .rights p {
         position: relative;
         right: 50px;
+    }
+    .head h1{
+        margin-left: -406px;
+    }
+    .paragraph{
+        width: 300px
     }
 }

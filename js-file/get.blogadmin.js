@@ -21,7 +21,7 @@ const getBlogsadmin = async () => {
                             </span>
                             <span class="author">Axel Divin</span>
 							<button class="update" id="${res?._id}"><a href="/admin-file/update.html?${res?._id}" class="update">Edit</a></button>
-							<button class="view"> comments</button>
+					        <a href="/admin-file/comments.html?${res?._id}" class="view">Comment</a>
                             <button class="delete" id="${res?._id}"onclick="DeleteBlog(this.id)">Delete</button>
                         </div>
                     `

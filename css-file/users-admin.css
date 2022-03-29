@@ -155,6 +155,18 @@ font-family: sans-serif;
     }
     .side{
         min-width: 20vw;
+        position: absolute;
+        left: -22rem; 
+    }
+    .active{
+        position: absolute;
+        left: 0;
+    }
+    .nav-pic{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
     }
 }
 @media (max-width: 23.5em){
